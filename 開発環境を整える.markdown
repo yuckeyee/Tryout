@@ -1,0 +1,39 @@
+# 開発環境を整える
+
+### iterm2の使い方
+- tab機能  
+command + T 
+- ウインドゥ分割機能  
+command + V
+- 分割画面移動  
+command + [  
+  command + ]
+- 上下分割  
+command + shift + D
+
+### tmuxの使い方  
+- アタッチ  
+tmux  
+tmux attach
+- デタッチ  
+ctrl + b +d
+- Window作成  
+ctrl + b + c
+- Panel作成  
+ctrl + b + %
+- Session作成  
+tmux new -s セッション名
+- Session一覧  
+tmux ls
+
+### iterm2のカスタマイズとzshの導入
+- tmuxのショートカットキー作成
+- デフォルトをzshに
+- iterm2のデザイン変更  
+半透明にして開いた時に左端に固定  
+文字カラーを目に優しいデザインにした
+- テキストエディタはVSCODEを使用  
+いつかはemacsを使えるようになりたい
+
+
+
